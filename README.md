@@ -1,5 +1,6 @@
-# viRome_legacy
+# viRome_ggplot2
 Legacy R code for the R package viRome DOI:10.1093/bioinformatics/btt297
+modified to use ggplot2 for printing in the position.barplot and barplot.bam functions.
 
 Install packages:
 
