@@ -1,6 +1,5 @@
 # viRome_ggplot2
-Legacy R code for the R package viRome DOI:10.1093/bioinformatics/btt297
-modified to use ggplot2 for printing in the position.barplot and barplot.bam functions.
+Legacy R code for the R package viRome modified to use ggplot2 for printing in the position.barplot and barplot.bam functions.
 
 Install packages:
 
@@ -62,3 +61,13 @@ pmh <- pwm.heatmap(pwm)
 # requires only the output of sequence.report()
 rdp <- read.dist.plot(sr)
 ```
+
+
+## Citation ##
+
+If you are using this tool or parts of it in your research, please cite the original publication and our paper:
+
+Watson M, Schnettler E, Kohl A. viRome: an R package for the visualization and analysis of viral small RNA sequence datasets. Bioinformatics. 2013 Aug 1;29(15):1902-3. doi: 10.1093/bioinformatics/btt297. Epub 2013 May 24. PMID: 23709497; PMCID: PMC3712215.
+
+Lumi Viljakainen, Matthias A. Fürst, Anna V. Grasse, Jaana Jurvansuu1, Jinook Oh, Lassi Tolonen, Thomas Eder, Thomas Rattei, Sylvia Cremer. Antiviral immune response reveals host-specific virus infections in natural ant populations
+will be updated as soon as it is on www.biorxiv.org
