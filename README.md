@@ -4,7 +4,7 @@ Legacy R code for the R package viRome modified to use ggplot2 for printing in t
 Install packages:
 
 ```sh
-install.packages(c("BiocManager","Rcpp","seqinr","plyr","gsubfn","Rsamtools","reshape2","seqLogo", "motifStack", "S4Vectors"))
+install.packages(c("BiocManager","Rcpp","seqinr","plyr","gsubfn","Rsamtools","reshape2","seqLogo", "motifStack", "S4Vectors", "ggplot2"))
 
 BiocManager::install("seqLogo")
 BiocManager::install("motifStack")
